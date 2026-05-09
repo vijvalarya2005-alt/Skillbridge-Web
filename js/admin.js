@@ -189,8 +189,8 @@ document.addEventListener('DOMContentLoaded', () => {
             card.innerHTML = `
                 <h4 style="margin: 0 0 10px 0; color: white;">${data.name || "Anonymous Student"}</h4>
                 <div style="display: flex; gap: 15px; font-size: 0.9rem; color: #ccc;">
-                    <span>🔥 Readiness: <strong style="color: var(--success);">${data.readinessScore || 0}</strong></span>
-                    <span>📁 Projects: <strong style="color: var(--success);">${data.projectCount || 0}</strong></span>
+                    <span> Readiness: <strong style="color: var(--success);">${data.readinessScore || 0}</strong></span>
+                    <span> Projects: <strong style="color: var(--success);">${data.projectCount || 0}</strong></span>
                 </div>
                 <div style="margin-top: 10px;">
                     ${data.linkedIn 
