@@ -1,5 +1,5 @@
 // js/nav.js
-import { auth, db } from './firebase.js';
+import { auth} from './firebase.js';
 import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-auth.js";
 import { doc, getDoc } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js";
 
